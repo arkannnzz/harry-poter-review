@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: auto;
+    padding: auto;
+}
+
+
+body {
+
+    background-image: url(a.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+}
+
+#header {
+width: 1200px;
+height: auto;
+background-color: rgba(0, 32, 58, 0.885);
+
+}
+#areapost {
+    width: 1200px;
+    height: auto;
+    background-color: rgba(0, 32, 58, 0.885);
+}
+#footer {
+        width: 1200px;
+        height: auto;
+        background-color: rgba(0, 32, 58, 0.885);
+        
+}
+#nav{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+#banner{
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+    padding-left: 300px;
+ 
+}
+.judul{
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 500px;
+}
+#nav li{
+    color: #ffffff;
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    font-family: "Crimson Text", serif;
+}
+.logo{
+    padding-left: 50px;
+    
+}
+#copyright{
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-post{
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Comic Neue", cursive;
+
+}
+#nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Crimson Text", serif;
+}
+#nav a:hover{
+    color: black;
+    cursor: -webkit-zoom-out;
+    font-family: "Crimson Text", serif;
+}
+#music {
+    width: 10px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color:rgba(0, 32, 58, 0.885);
+    overflow: hidden;
+    transition-duration: 2s;
+    padding: 10px;
+}
+
+#music:hover{
+    width: 300px;
+    position: absolute;
+    top:100px;
+    right:0;
+    background-color: rgba(0, 32, 58, 0.885);
+    transition-duration: 3,5s;
+}
+#harry {
+    background-image: url(DanielRadcliffe.jpg);
+    width: 250px;
+}
+#harry :hover{
+    background-image: url(lll.webp);
+  width: 250px;
+
+}
